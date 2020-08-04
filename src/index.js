@@ -31,6 +31,7 @@ function launch(event) {
   // anything we want to the DOM -- absolute power
   modal.classList.remove('off')
 }
+launchButton.addEventListener('click', launch)
 
 // 👉 TASK 4- Create a function to confirm the launch.
 // It should close the modal and display a success report.
