@@ -30,6 +30,8 @@ launchButton.onclick = function (event) {
 function launch(event) {
   // anything we want to the DOM -- absolute power
   modal.classList.remove('off')
+  successMessage.classList.add('off')
+  failureMessage.classList.add('off')
 }
 launchButton.addEventListener('click', launch)
 
