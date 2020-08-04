@@ -81,7 +81,11 @@ Array.from(document.all).forEach(el => {
 })
 
 // 👉 TASK 8- Select a link and prevent its default behavior
+document.querySelector('a').addEventListener('click', event => {
+  console.log('about to disrupt default behaviour of this link')
 
+  event.preventDefault()
+})
 
 // 👉 TASK 9- Using the mouseover event on 'document',
 // log to the console the X and Y coordinates
