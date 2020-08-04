@@ -60,6 +60,8 @@ document.addEventListener('keydown', event => {
   // if the key pressed was ESC, dismiss the modal, otherwise nothing
   if (event.key === 'Escape') {
     modal.classList.add('off')
+  } else {
+    console.log('wrong key, buddy')
   }
 })
 
