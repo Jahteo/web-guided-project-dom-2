@@ -46,7 +46,7 @@ confirmButton.addEventListener('click', confirmLaunch)
 // 👉 TASK 5- Create a function to cancel the launch.
 // It should close the modal and display a failure report.
 // Add it as a listener for clicks on the cancellation button.
-cancelButton.addEventListener('click', (event) => {
+cancelButton.addEventListener('click', function (event) {
   modal.classList.add('off')
   failureMessage.classList.remove('off')
 })
