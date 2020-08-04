@@ -76,7 +76,7 @@ Array.from(document.all).forEach(el => {
     console.log('🧭 The current target     ', event.currentTarget)
     console.log('\n')
 
-    event.stopPropagation()
+    // event.stopPropagation()
   })
 })
 
