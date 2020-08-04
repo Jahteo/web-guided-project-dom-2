@@ -72,8 +72,8 @@ document.addEventListener('keydown', event => {
 // Play with stopPropagation and stopImmediatePropagation.
 Array.from(document.all).forEach(el => {
   el.addEventListener('click', function (event) {
-    console.log('The target of the event', event.target)
-    console.log('The current target', event.currentTarget)
+    console.log('🎯 The target of the event', event.target)
+    console.log('🧭 The current target     ', event.currentTarget)
     console.log('\n')
   })
 })
